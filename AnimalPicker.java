@@ -6,7 +6,8 @@ public class AnimalPicker{
         String choice = scan.nextLine();
         if(choice.equals("dog")){
             System.out.println("CAT ASCII ART HERE");
+        } else if(choice.equals("cat")){
+            System.out.println("CAT ASCII ART HERE");
         } 
-
     }
 }
