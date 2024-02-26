@@ -7,14 +7,15 @@ public class AnimalPicker{
         while(option){
         String choice = scan.nextLine();
         if(choice.equals("dog")){
-            System.out.println("DOG ASCII ART HERE");
+            System.out.println(" __/_  `.  .-\"\"\"-.\n \\_,` | \\-\'  /   )`-\')\n  \"\") `\"`    \\  ((`\"`\n ___Y  ,    .\'7 /|\n(_,___/...-` (_/_/");
             option = false;
-        } else if(choice.equals("cat")){
-            System.out.println("CAT ASCII ART HERE");
+        } else if(choice.equals("cat")){        
+            System.out.println(" _._     _,-\'\"\"`-._\n(,-.`._,\'(       |\\`-/|\n    `-.-\' \\ )-`( , o o)\n          `-    \\`_`\"\'-");
             option = false;
         } else{
-            System.out.println("Enter dog or cat");
-        }
+            System.out.println("Enter dog or cat ");
+
+        }scan.close();
     }  
     }
 }
