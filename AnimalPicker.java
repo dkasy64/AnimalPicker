@@ -3,7 +3,7 @@ public class AnimalPicker{
     public static void main(String[] args){
         boolean option = true;
         Scanner scan = new Scanner(System.in);
-        System.out.println("What animal would you like to see: a dog or cat or a fish?");
+        System.out.println("What animal would you like to see: a dog, cat, fish, or moose?");
         while(option){
         String choice = scan.nextLine();
         if(choice.equals("dog")){
@@ -16,7 +16,11 @@ public class AnimalPicker{
             System.out.println("    /\"*._         _\n      .-*\'`    `*-.._.-\'/\n    < * ))     ,       ( \n      `*-._`._(__.--*\"`.\\");
             option = false;
         }
-          else{
+        else if(choice.equals("moose")){
+            System.out.println("    \\\\_//\n   __/\".\n  /__ |\n  || ||\n");
+            option = false;
+        }
+        else{
             System.out.println("Enter dog or cat ");
 
         }scan.close();
